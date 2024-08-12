@@ -9,7 +9,7 @@ export default function LandingPage() {
   return (
     <div>
       <HeroSection/>
-      <div className="container mx-auto flex mt-8 space-x-8 px-4">
+      <div className="container mx-auto flex mt-8 space-x-8 px-6">
         <LeftSidebar />
         <div className="w-3/4">
           <Speakers />
