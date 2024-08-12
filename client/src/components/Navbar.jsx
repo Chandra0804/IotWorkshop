@@ -7,27 +7,27 @@ const Navbar = () => {
         IoT ML Workshop
       </div>
       <div className="space-x-4">
-        <a href="#news" className="relative group">
+        <a href="#news" className="relative group font-semibold">
           News
           <span className="absolute left-0 bottom-0 w-full h-0.5 bg-white scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span>
         </a>
         <span>|</span>
-        <a href="#organizing-committee" className="relative group">
+        <a href="#organizing-committee" className="relative group font-semibold">
           Organizing Committee
           <span className="absolute left-0 bottom-0 w-full h-0.5 bg-white scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span>
         </a>
         <span>|</span>
-        <a href="#speakers" className="relative group">
+        <a href="#speakers" className="relative group font-semibold">
           Speakers
           <span className="absolute left-0 bottom-0 w-full h-0.5 bg-white scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span>
         </a>
         <span>|</span>
-        <a href="#schedule" className="relative group">
+        <a href="#schedule" className="relative group font-semibold">
           Schedule
           <span className="absolute left-0 bottom-0 w-full h-0.5 bg-white scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span>
         </a>
         <span>|</span>
-        <a href="#about" className="relative group">
+        <a href="#about" className="relative group font-semibold">
           About
           <span className="absolute left-0 bottom-0 w-full h-0.5 bg-white scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-out origin-left"></span>
         </a>
