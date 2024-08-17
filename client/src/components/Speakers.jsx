@@ -19,24 +19,18 @@ const Speakers = () => {
     <div className="w-full space-y-8">
       <div id="speakers" className="space-y-4">
         <h2 className="font-bold text-xl">Academic Speakers</h2>
-        <div className="grid grid-cols-4 gap-4">
+        <div className="grid grid-cols-3 gap-3">
           <SpeakerCard
-            image={imageLink}
-            name="Dr. John Doe"
+            image="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbe90WdUkdGiYYxP9C-tqNSGw_axvE6d5e3g&s"
+            name="Dr. Mohammad Aazam"
             title="Professor"
-            company="University ABC"
+            company="Carnegie Mellon University"
           />
           <SpeakerCard
-            image={imageLink}
-            name="Dr. John Doe"
+            image="https://cde.nus.edu.sg/ece/wp-content/uploads/sites/3/2019/03/Mohan-Gurusamy-PPhoto-removebg-preview-e1704788720754.jpg"
+            name="Dr. Mohan Gurusamy"
             title="Professor"
-            company="University ABC"
-          />
-          <SpeakerCard
-            image={imageLink}
-            name="Dr. John Doe"
-            title="Professor"
-            company="University ABC"
+            company="National University of Singapore"
           />
           <SpeakerCard
             image={imageLink}

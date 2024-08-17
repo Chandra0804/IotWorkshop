@@ -1,10 +1,16 @@
 import React from 'react';
+import SricityLogo from '../assets/sricityLogo.png'
 
 const Navbar = () => {
   return (
     <nav className="bg-gray-900/25 text-white p-4 flex justify-between items-center">
-      <div className="text-xl font-bold">
-        IoT ML Workshop
+      <div className="flex items-center space-x-2 text-xl font-bold">
+        <img 
+          src={SricityLogo} 
+          alt="Workshop Logo" 
+          className="h-8 w-8 object-cover rounded-full"
+        />
+        <span>IoT ML Workshop</span>
       </div>
       <div className="space-x-4">
         <a href="#news" className="relative group font-semibold">

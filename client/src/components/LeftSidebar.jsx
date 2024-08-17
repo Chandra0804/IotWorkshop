@@ -13,9 +13,14 @@ const LeftSidebar = () => {
       </div>
       <div id="organizing-committee" className="p-6 bg-white shadow-lg rounded-lg">
         <h2 className="font-bold text-xl text-indigo-600">Organizing Committee</h2>
-        <p className="mt-4 text-gray-600">
-          The workshop is organized by experts from academia and industry, including Prof. John Doe (Chair), Dr. Jane Roe (Co-Chair), and leading professionals from the IoT and ML sectors.
+        <p className="mt-4 text-gray-600">Course Coordinators
+        <ul className="mt-4 space-y-2">
+          <li className="text-gray-600">🔹 Dr. Abhishek Hazra </li>
+          <li className="text-gray-600">🔹 Dr. Pavan Kumar B N</li>
+          <li className="text-gray-600">🔹 Dr. Bheemappa Halavar</li>
+        </ul>
         </p>
+        <p className="mt-4 text-gray-600">Advisory Committee </p>
       </div>
       <div id="archive" className="p-6 bg-white shadow-lg rounded-lg">
         <h2 className="font-bold text-xl text-indigo-600">Event Archive</h2>

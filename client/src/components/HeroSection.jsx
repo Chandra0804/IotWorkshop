@@ -9,8 +9,8 @@ export default function HeroSection() {
       <Navbar />
       <div className="text-white ml-8 flex flex-col px-8 my-auto">
         <h1 className="text-4xl font-bold">IoT ML Workshop</h1>
-        <p className="mt-2 text-lg">Organized by XYZ</p>
-        <p className="mt-1 text-lg">Dates: January 20-22, 2025</p>
+        <p className="mt-2 text-lg">Organized by Indian Institute of Information Technology, SriCity</p>
+        <p className="mt-1 text-lg">Dates: December 09-13, 2024</p>
       </div>
     </section>
   )
