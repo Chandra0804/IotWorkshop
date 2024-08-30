@@ -113,7 +113,7 @@ const EventSpeakers = () => {
       </div>
     </div>
 
-    <div className="flex flex-col gap-8">
+    <div className="flex flex-col gap-8" id="speakers">
       <SpeakerSection title="Academic Speakers" speakers={academicSpeakers} />
       <SpeakerSection title="Industry Speakers" speakers={industrySpeakers} />
     </div>
