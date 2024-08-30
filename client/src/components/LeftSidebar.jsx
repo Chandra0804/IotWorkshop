@@ -13,7 +13,7 @@ const LeftSidebar = () => {
       </div>
       <div id="organizing-committee" className="p-6 bg-white shadow-lg rounded-lg">
         <h2 className="font-bold text-xl text-indigo-600">Organizing Committee</h2>
-        <p className="mt-4 text-gray-600">Course Coordinators</p>
+        <p className="mt-4 text-gray-600">Faculty Coordinators</p>
         <ul className="mt-4 space-y-2">
           <li className="text-gray-600">🔹 Dr. Abhishek Hazra</li>
           <li className="text-gray-600">🔹 Dr. Pavan Kumar B N</li>
