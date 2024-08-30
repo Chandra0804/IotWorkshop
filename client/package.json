@@ -2,7 +2,7 @@
   "name": "client",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Chandra0804.github.io/IOTWorkshop",
+  "homepage": "https://IoT-AIML-Workshop.github.io/home",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
