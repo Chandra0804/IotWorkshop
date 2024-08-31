@@ -102,6 +102,13 @@ const Navbar = () => {
             >
               About
             </a>
+            <a
+              href="https://forms.gle/vpuyXKPCjuxbd9DS6"
+              className="font-semibold"
+              onClick={() => setIsOpen(false)}
+            >
+              Register
+            </a>
           </div>
         </div>
       )}
